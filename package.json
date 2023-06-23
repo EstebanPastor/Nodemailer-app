@@ -1,0 +1,17 @@
+{
+  "name": "send-mailer",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Esteban Pastor",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mailgen": "^2.0.27",
+    "nodemailer": "^6.9.3",
+    "nodemon": "^2.0.22"
+  }
+}
